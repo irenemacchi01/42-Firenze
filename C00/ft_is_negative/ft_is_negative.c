@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void ft_is_positive(int n)
+void ft_is_negative(int n)
 {
     if (n < 0)
     {
@@ -13,8 +13,8 @@ void ft_is_positive(int n)
 }
 
 /*int main() {
-    ft_is_positive(-5); 
-    ft_is_positive(0);  
-    ft_is_positive(10); 
+    ft_is_negative(-5); 
+    ft_is_negative(0);  
+    ft_is_negative(10); 
     return 0;
 }*/
