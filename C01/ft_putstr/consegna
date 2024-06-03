@@ -1,0 +1,6 @@
+/*
+Creare una funzione che stampi sullo standard output una stringa di caratteri.
+
+Il prototipo è il seguente :
+void ft_putstr(char *str);
+*/

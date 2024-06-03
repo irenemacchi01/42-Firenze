@@ -1,0 +1,6 @@
+/*
+Creare una funzione ft_ultimate_div_mod il cui prototipo è:
+void	ft_ultimate_div_mod(int *a, int *b);
+
+Questa funzione calcola la divisione del parametro a per il parametro b e ne salva il risultato nell int puntato da a e il resto nell int puntato da b
+*/

@@ -1,0 +1,6 @@
+/*
+Creare una funzione che restituisca il numero di caratteri contenuto in una stringa
+
+Il prototipo è il seguente:
+int	ft_strlen(char *str);
+*/

@@ -1,0 +1,6 @@
+/*
+Creare una funzione che scambi il valore di due interi i cui indirizzo le vengono passati come parametri
+
+Il prototipo è il seguente:
+void ft_swap(int *a, int  *b);
+*/

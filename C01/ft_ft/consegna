@@ -1,0 +1,6 @@
+/*
+Creare una funzione che abbia come parametro un puntatore ad int e imposti il valore di tale int a "42"
+
+Il prototipo è il seguente:
+void ft_ft(int *nbr);
+*/
