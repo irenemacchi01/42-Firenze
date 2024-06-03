@@ -1,0 +1,9 @@
+/*
+Creare una funzione che stampi tutte le combinazioni possibili utilizzando tre ci- fre differenti ognuna maggiore della precedente, il tutto deve presentato in ordine crescente
+
+•	987 non è presente perché 789 già lo è.
+•	999 non è presente perché la cifra 9 viene ripetuta.
+
+Il prototipo è il seguente:
+void ft_print_comb(void);
+*/

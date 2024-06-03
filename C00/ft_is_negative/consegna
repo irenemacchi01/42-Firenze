@@ -1,0 +1,6 @@
+/*
+Scrivere una funzione che stampi 'N' o 'P' a seconda del segno dell'intero passatole come parametro. Se n è negativo, stamperà 'N'. Se n è positivo o nullo, stamperà 'P'
+
+Il prototipo è il seguente:
+void ft_is_positive(int n);
+*/

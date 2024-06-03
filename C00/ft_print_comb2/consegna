@@ -1,0 +1,6 @@
+/*
+Creare una funzione che stampi tutte le combinazione possibili utilizzando due numeri compresi tra 00 e 99, il tutto presentato in ordine crescente
+
+Il prototipo è il seguente:
+void ft_print_comb2(void);
+*/

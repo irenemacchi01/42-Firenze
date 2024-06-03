@@ -1,0 +1,6 @@
+/*
+Creare una funzione che stampi le cifre, su uns asola riga, in ordine crescente.
+
+Il prototipo è il seguente:
+void ft_print_numbers(void);
+*/
