@@ -1,7 +1,9 @@
-/*Scrivere una funzione che stampi il carattere passatole come parametro.
+/*
+Scrivere una funzione che stampi il carattere passatole come parametro.
 
 Il prototipo è il seguente:
 void ft_putchar(char c);
 
 Per stampare il carattere dovrete utilizzate esclusivamente la funzione WRITE:
-write(1, &c, 1);*/
+write(1, &c, 1);
+*/
