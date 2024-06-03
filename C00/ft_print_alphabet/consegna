@@ -2,5 +2,5 @@
 Creare una funzione che stampi l'alfabeto in minuscolo, su una sola riga, in ordine crescente, partendo dalla lettera 'a'.
 
 Il prototipo è il seguente:
-void ft_print_slphabet(void);
+void ft_print_alphabet(void);
 */
