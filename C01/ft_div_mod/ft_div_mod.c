@@ -6,7 +6,8 @@ void ft_div_mod(int a, int b, int *div, int *mod)
     *mod = a % b;
 }
 
-/*int main() {
+/*
+int main() {
     int dividend = 15;
     int divisor = 4;
     int division_result, modulo_result;
