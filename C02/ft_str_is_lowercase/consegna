@@ -1,0 +1,8 @@
+/*
+Creare una funzione che restituisca 1 se la stringa passatela come parametro con- tiene solo caratteri alfabetici minuscoli o 0 se contiene almeno un carattere di un altro tipo
+
+Il prototipo è il seguente:
+int	ft_str_is_lowercase(char *str);
+
+Se str è vuota deve restituire 1
+*/

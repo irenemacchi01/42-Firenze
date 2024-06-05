@@ -1,0 +1,32 @@
+/*
+Riproduci il comportamento della funzione strncpy (man strncpy)
+
+Il prototipo è il seguente:
+char	*ft_strncpy(char *dest, char  *src, unsigned  int  n);
+
+
+La differenza principale tra strcpy e strncpy risiede nel modo in cui gestiscono il numero di caratteri da copiare e come trattano la terminazione della stringa.
+
+strcpy
+Prototipo: char *strcpy(char *dest, const char *src);
+
+    Comportamento: Copia la stringa puntata da src (incluso il carattere di terminazione \0) nella memoria puntata da dest. La funzione strcpy presuppone che la destinazione sia abbastanza grande per contenere la stringa sorgente più il carattere di terminazione nullo.
+
+strncpy
+Prototipo: char *strncpy(char *dest, const char *src, size_t n);
+
+    Comportamento: Copia al massimo n caratteri dalla stringa puntata da src nella memoria puntata da dest. Se src è più corta di n, la destinazione viene riempita con caratteri di terminazione nulli (\0) fino a raggiungere n caratteri. Se src è più lunga di n, non viene aggiunto il carattere di terminazione nullo a dest.
+
+Differenze principali:
+    - Numero di caratteri copiati:
+
+        strcpy copia tutti i caratteri di src inclusi i caratteri di terminazione nulli fino a copiare tutta la stringa
+        
+        strncpy copia fino a n caratteri. Se src è più corta di n, riempie la destinazione con caratteri nulli. Se src è più lunga di n, copia solo n caratteri e non aggiunge il terminatore nullo
+
+    - Terminatore nullo:
+
+        strcpy garantisce che la stringa di destinazione sia terminata con \0
+        
+        strncpy garantisce il terminatore nullo solo se src ha meno di n caratteri. Altrimenti, la stringa di destinazione non sarà terminata con \0, e il programmista deve aggiungere manualmente il terminatore se necessario
+*/

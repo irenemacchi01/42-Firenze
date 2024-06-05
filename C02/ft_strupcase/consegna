@@ -1,0 +1,8 @@
+/*
+Creare una funzione che converte in maiuscolo ogni lettera
+
+Il prototipo è il seguente:
+char	*ft_strupcase(char *str);
+
+Deve restituire str
+*/

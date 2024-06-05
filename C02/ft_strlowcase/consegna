@@ -1,0 +1,8 @@
+/*
+Creare una funzione che converte in minuscolo ogni lettera
+
+Il prototipo è il seguente:
+char	*ft_strlowcase(char *str);
+
+Deve restituire str
+*/

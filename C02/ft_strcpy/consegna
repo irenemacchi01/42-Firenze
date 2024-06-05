@@ -1,0 +1,11 @@
+/*
+Riproduci il comportamento della funzione strcpy (man strcpy)
+
+Il prototipo è il seguente:
+char	*ft_strcpy(char *dest, char  *src);
+
+    dest: Puntatore alla destinazione dove la stringa copiata sarà memorizzata
+    src: Puntatore alla stringa sorgente da copiare
+
+La funzione copia i caratteri della stringa src inclusivo del carattere nullo di terminazione (\0) nella destinazione dest. La funzione restituisce un puntatore alla destinazione dest
+*/
