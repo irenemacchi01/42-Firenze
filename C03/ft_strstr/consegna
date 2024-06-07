@@ -1,0 +1,13 @@
+/*
+Riproduci il comportamento della funzione strstr
+
+Il prototipo:
+char	*ft_strstr(char *str, char *to_find)
+
+Comportamento di strstr:
+
+    haystack: La stringa in cui cercare (letteralmente "pagliaio")
+    needle: La sottostringa da cercare (letteralmente "ago")
+
+La funzione strstr cerca la prima occorrenza della stringa needle all'interno della stringa haystack. Se la sottostringa viene trovata, la funzione restituisce un puntatore alla prima occorrenza di needle all'interno di haystack. Se needle non viene trovata, la funzione restituisce NULL
+*/

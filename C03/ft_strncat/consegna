@@ -1,0 +1,6 @@
+/*
+Riproduci comportamento della funzione strncat
+
+Il prototipo:
+char	ft_strcat(char *dest, char *src, unsigned int nb)
+*/

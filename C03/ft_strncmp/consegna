@@ -1,0 +1,16 @@
+/*
+Riproduci il comportamento della funzione strncmp
+
+Il prototipo:
+int ft_strncmp(char *n1, char *n2, unsigned int n);
+
+La funzione strncmp in C è simile a strcmp, ma confronta solo i primi n caratteri delle due stringhe. Anche questa funzione fa parte della libreria <string.h>
+
+La funzione strncmp confronta fino a un massimo di n caratteri delle stringhe puntate da str1 e str2. La funzione restituisce un valore intero che indica la relazione tra i primi n caratteri delle due stringhe:
+
+Valore negativo: se i primi n caratteri di str1 sono minori dei primi n caratteri di str2
+
+Valore zero: se i primi n caratteri delle due stringhe sono uguali
+
+Valore positivo: se i primi n caratteri di str1 sono maggiori dei primi n caratteri di str2
+*/

@@ -1,0 +1,8 @@
+/*
+Riproduci il comportamento della funzione strcat
+
+Il prototipo:
+char	ft_strcat(char *dest, char *src)
+
+La funzione strcat aggiunge la stringa puntata da src alla fine della stringa puntata da dest. La stringa risultante è memorizzata in dest, che deve avere spazio sufficiente per contenere la concatenazione delle due stringhe, inclusa la terminazione null (\0)
+*/
